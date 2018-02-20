@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e4bdb908fd584bdfa9103838c14e5cf, type: 3}
   m_Name: BlackSwordData
   m_EditorClassIdentifier: 
-  ItemName: Black Sword
-  WoodCountToCraft: 348
-  StoneCountToCraft: 220
-  SteelCountToCraft: 693
+  ItemType: 0
+  WoodCountToCraft: 8
+  StoneCountToCraft: 22
+  SteelCountToCraft: 14

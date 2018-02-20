@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: FireHelmetData
   m_EditorClassIdentifier: 
   ItemType: 1
-  WoodCountToCraft: 120
-  StoneCountToCraft: 80
-  SteelCountToCraft: 500
+  WoodCountToCraft: 12
+  StoneCountToCraft: 5
+  SteelCountToCraft: 4

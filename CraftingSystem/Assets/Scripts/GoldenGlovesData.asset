@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: GoldenGlovesData
   m_EditorClassIdentifier: 
   ItemType: 2
-  WoodCountToCraft: 100
-  StoneCountToCraft: 50
-  SteelCountToCraft: 100
+  WoodCountToCraft: 10
+  StoneCountToCraft: 23
+  SteelCountToCraft: 4

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class SourceManager : MonoBehaviour {
 
-    private int _stoneCount;
-    private int _woodCount;
-    private int _steelCount;
+    public ShowItemWindow _showItemWindow;
+    private int _stoneCount = 10;
+    private int _woodCount = 15;
+    private int _steelCount = 25;
 
     public List<CraftableItem> Items;
 
@@ -38,5 +39,19 @@ public class SourceManager : MonoBehaviour {
     public int GetSteelCount()
     {
         return _steelCount;
+    }
+
+    public void AddCraftableItem(CraftableItem item)
+    {
+        Items.Add(item);
+    }
+
+    public void DeleteUsedSources(CraftableItemData data)
+    {
+        _stoneCount -= data.StoneCountToCraft;
+        _woodCount -= data.WoodCountToCraft;
+        _steelCount -= data.SteelCountToCraft;
+
+        _showItemWindow.RefreshSourcePanel();
     }
 }
