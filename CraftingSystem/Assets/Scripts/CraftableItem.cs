@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CraftableItem : MonoBehaviour {
 
-    public CraftableItem[] _components;
-
     public virtual void Init()
     {
 

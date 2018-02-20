@@ -4,13 +4,39 @@ using UnityEngine;
 
 public class SourceManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private int _stoneCount;
+    private int _woodCount;
+    private int _steelCount;
+
+    public List<CraftableItem> Items;
+
+    public void SetStoneCount(int stoneCount)
+    {
+        _stoneCount = stoneCount;
+    }
+
+    public int GetStoneCount()
+    {
+        return _stoneCount;
+    }
+
+    public void SetWoodCount(int woodCount)
+    {
+        _woodCount = woodCount;
+    }
+
+    public int GetWoodCount()
+    {
+        return _woodCount;
+    }
+
+    public void SetSteelCount(int steelCount)
+    {
+        _steelCount = steelCount;
+    }
+
+    public int GetSteelCount()
+    {
+        return _steelCount;
+    }
 }
