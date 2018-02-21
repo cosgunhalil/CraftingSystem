@@ -609,9 +609,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9c7bb1d27d63f49da8957411f962fdee, type: 2}
   SourceManager: {fileID: 532640012}
   ShowItemPanel: {fileID: 532640013}
-  BlackSwordPrefab: {fileID: 0}
-  FireHelmetPrefab: {fileID: 0}
-  GoldenGlovesPrefab: {fileID: 0}
+  BlackSwordPrefab: {fileID: 1499243334230912, guid: 19fe55021c0144df18215591d038e1a4,
+    type: 2}
+  FireHelmetPrefab: {fileID: 1601775720429226, guid: 280053fa5783d425fa37000a5d30d31c,
+    type: 2}
+  GoldenGlovesPrefab: {fileID: 1840243616843832, guid: 7674b27a511704c5b94de584aa5f8c87,
+    type: 2}
 --- !u!114 &532640012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2633,7 +2636,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1517985749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532640011}
+        m_MethodName: NextItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1517985749
@@ -3203,7 +3217,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2135399772}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532640011}
+        m_MethodName: PrevItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2135399772

@@ -19,6 +19,8 @@ public class CraftManager : MonoBehaviour {
     public void Start()
     {
         _selectedCraftableItemIndex = 0;
+        ShowItemPanel.RefreshCraftItemPanel(CraftableItemDatas[_selectedCraftableItemIndex]);
+        ShowItemPanel.RefreshSourcePanel();
     }
 
     public void NextItem()

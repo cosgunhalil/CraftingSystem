@@ -5,9 +5,9 @@ using UnityEngine;
 public class SourceManager : MonoBehaviour {
 
     public ShowItemWindow _showItemWindow;
-    private int _stoneCount = 10;
-    private int _woodCount = 15;
-    private int _steelCount = 25;
+    private int _stoneCount = 100;
+    private int _woodCount = 150;
+    private int _steelCount = 250;
 
     public List<CraftableItem> Items;
 
